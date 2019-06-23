@@ -136,3 +136,13 @@ Running migrations:
   Applying sessions.0001_initial... OK
 
 ```
+
+
+
+#### 서버 구동
+
+``` bash
+$> python manage.py runserver
+```
+
+[127.0.0.1:8000](127.0.0.1:8000) 번으로 접속
