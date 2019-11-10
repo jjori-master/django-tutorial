@@ -14,8 +14,6 @@ RUN apk --update add libxml2-dev libxslt-dev libffi-dev gcc musl-dev libgcc curl
 RUN apk add jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev tiff-dev tk-dev tcl-dev python3-dev mariadb-dev build-base mariadb-client-libs linux-headers nginx supervisor
 
 
-
-
 COPY requirements/* requirements/
 RUN pip3 install -r requirements/local.txt
 
